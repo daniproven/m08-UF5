@@ -3,12 +3,10 @@
 <html>
 	<HEAD>
 		<title>Formulari</title>
-		<link rel="stylesheet" type="text/css" href="/home/tarda/Escritorio/m08UF5/css/formulari.css">
 	</HEAD>
 	<body>
-		<h1>Curriculum</h1>
-		<body id="1">
-		<p><strong><ins>Información Basica</ins></strong></p> 
+		<h1 style="color:green;text-align:center;">Curriculum</h1>
+		<div style="background-color:coral;" class="intro"><p><strong><ins>Información Basica</ins></strong></p> 
 		<form method="post" action="dades.php">
 			<p>
 				<label>Nombre</label> <br> <input type="text" name="Nombre" id="Nombre" size="100"/>
@@ -21,35 +19,33 @@
 			<p>
 				<label>Fecha Nacimiento:</label> <br> <input type="date" name="date" id="date" ></code>
 			</p>
-			</body>
-			<body>
-			<p><strong><ins>Nacionalidad</ins></strong></p> 
+			</div>
+			<div style="background-color:lightgreen;"><p><strong><ins>Nacionalidad</ins></strong></p> 
 			<p>
        <input type="radio" name="nacionalidad" value="Española" id="Española" /> <label>Española</label> 
        <input type="radio" name="nacionalidad" value="Comunitario(UE)" id="Comunitario(UE)" /> <label>Comunitario(UE)</label> 
        <input type="radio" name="nacionalidad" value="No comunitario" id="No comunitario" /> <label>No comunitario</label> 
        </p>
-       </body>
-       <body>
-       <p>
+       </div>
+       <div style="background-color:lightpink;"><p>
 		  <p><strong><ins>Estudios</ins></strong></p>
 		   <select name="Estudios" id="Estudios">
 		   <option value="GM" selected>GM</option>
 		   </select>
        </p>
-       </body>
-       <body>
+       </div>
        <p>
+		   <div style="background-color:lightblue;">
 		   <p><strong><ins>Idiomas</ins></strong></p>
 		   <input type="checkbox" name="Catalán" id="Catalán" /> <label>Catalán</label>
 		   <input type="checkbox" name="Castellano" id="Castellano" /> <label>Castellano</label>
 		   <input type="checkbox" name="Ingles" id="Ingles" /> <label>Ingles</label>
 		   <input type="checkbox" name="Chino" id="Chino" /> <label>Chino</label>
+		   </div>
        </p>
-       </body>
-       <body>
-       <input type="submit" value="Enviar" /> <input type="submit" value="Cancelar" /> 
+       <div style="background-color:lightgrey;">
+       <input type="submit" value="Enviar" /> <input type="submit" value="Cancelar" />
+       </div> 
        </form>
-       </body>
 	</body>
 	</html>
