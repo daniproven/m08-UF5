@@ -1,0 +1,110 @@
+#contenedor{
+	width:600px;
+	height:600px;
+	background-color: yellow;
+}
+.verdeClaro{
+	background-color: lightgreen;
+}
+.verdeOscuro{
+	background-color: green;
+}
+.negro{
+	background-color: black;
+}
+#div1{
+	width:400px;
+	height:100px;
+	float: left;
+	background-image: url("../imatges/asd.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div2{
+	width:200px;
+	height:100px;
+	float: left;
+	background-image: url("../imatges/1.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div3{
+	width:200px;
+	height:200px;
+	float: left;
+	background-image: url("../imatges/2.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div4{
+	width:200px;
+	height:200px;
+	float: left;
+	background-image: url("../imatges/3.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div5{
+	width:200px;
+	height:100px;
+	float: right;
+	background-image: url("../imatges/4.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div6{
+	width:200px;
+	height:100px;
+	float: left;
+	background-image: url("../imatges/5.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div7{
+	width: 400px;
+	height:100px;
+	float: left;
+	background-image: url("../imatges/6.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div9{
+	width: 400px;
+	height:100px;
+	float: left;
+	background-image: url("../imatges/7.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div8{
+	width: 200px;
+	height: 200px;
+	float: right;
+	background-image: url("../imatges/8.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div10{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-image: url("../imatges/9.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div11{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-image: url("../imatges/10.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+#div12{
+	width: 200px;
+	height: 100px;
+	float: right;
+	background-image: url("../imatges/11.jpeg");
+	background-position: center;
+	background-size: cover;
+}
