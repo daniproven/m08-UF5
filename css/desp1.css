@@ -6,7 +6,7 @@ padding:0px;
 
 #contenedor{
 	width: 960px;
-	height: 950px;
+	height: 1400px;
 	background-color: grey;
 	margin: auto;
 }
@@ -40,13 +40,62 @@ p {
 	font-style: oblique;
 }
 
+#album1 {
+	margin: auto;
+	float:left;
+	padding-right: 50px;
+	padding-left: 30px;
+	width: 280px;
+}
+
+#para1 {
+	text-align: justify;
+	padding-top: 55px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+}
+
+#album2 {
+	margin: auto;
+	float: left;
+	padding-right: 50px;
+	padding-left: 30px;
+	width: 280px;
+}
+
+#para2 {
+	text-align: justify;
+	padding-top: 90px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+}
+
+#album3 {
+	margin: auto;
+	float: left;
+	padding-right: 50px;
+	padding-left: 30px;
+	padding-top: 20px;
+	width: 280px;
+}
+
+#para3 {
+	text-align: justify;
+	padding-top: 90px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+}
+
+#div1 {
+	border: 5px solid black;
+	padding: 250px;
+}
 
 
 
+#video1 {
 
-
-
-
+}
 
 
 
