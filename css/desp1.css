@@ -1,0 +1,95 @@
+/*doy por defecto a todas (*) las etiquetas un margin y un padding de 0px */
+* {
+margin:0px;
+padding:0px;
+}
+
+#contenedor{
+	width: 960px;
+	height: 950px;
+	background-color: grey;
+	margin: auto;
+}
+	
+#estopa{
+	width:960px;
+	height:200px;
+}
+#estopa2{
+	display: block;
+	margin:auto;
+	width:400px;
+	height: 250px;
+}
+
+/* doy tamaño a la cabecera donde va el menu */
+#menu {
+	width:960px;
+	height:60px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin: 25px;
+	text-align:justify;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* quito los puntos de los elementos de la lista <li> */
+ul, ol {
+   list-style:none;
+}
+
+/* pongo el menu principal en forma horizontal */
+.nav > li {    /*  esta propiedad se aplica a los <li> que estan inmediatamente a continuación de una etiqueta de class="nav", no al submenu  */
+   float:left;    /*si quitara el simbolo '>' tambien se aplicaria el 'float:left' a los <li> del submenu y quedarian tambien en horizontal */
+}
+
+/* doy caracteristicas a TODOS los enlaces del menu y submenu */
+.nav li a {
+   background-color:#000;
+   color:#fff;
+   text-decoration:none;
+   padding:10px 12px;
+   display:block;
+}
+
+/* cambio el color de fondo cuando paso por el elemento */
+.nav li a:hover {
+   background-color:#434343;
+}
+
+/* doy caracteristicas al submenu, es decir a las listas <ul> que estan dentro de un <li> */
+.nav li ul {
+   display:none;
+   position:absolute;
+   min-width:140px;
+}
+
+/* doy caracteristicas a las listas <ul> del submenu, es decir dentro de un elemento <li> sobre el que estamos por encima (hover) */
+.nav li:hover > ul {
+   display:block;   /*esto es para que quede muestre toda la <ul> cuando estamos encima del <li> del submenu */
+}
