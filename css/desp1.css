@@ -6,10 +6,34 @@ padding:0px;
 
 #contenedor{
 	width: 960px;
-	height: 1400px;
+	height: 960px;
 	background-color: grey;
 	margin: auto;
 }
+
+#contenedor3 {
+	width: 960px;
+	height: 950px;
+	background-color: grey;
+	margin: auto;
+}
+
+#contenedor2 {
+	width: 960px;
+	height: 1350px;
+	background-color: grey;
+	margin: auto;
+}
+
+#contenedor4 {
+	width: 960px;
+	height: 1820px;
+	background-color: grey;
+	margin: auto;
+}
+
+
+
 	
 #estopa{
 	width:960px;
@@ -91,19 +115,50 @@ p {
 	padding: 250px;
 }
 
+#fuego {
+	text-align:left;
+	padding: 20px;
+}
 
 
-#video1 {
+#audio1 {
+	padding: 20px;
+}
 
+#apagon {
+	text-align:left;
+	padding: 20px;
+}
+
+#audio2 {
+	padding:20px;
+}
+
+#olvida {
+	text-align: left;
+	padding: 20px;
+}
+
+#audio3 {
+	padding:20px;
 }
 
 
 
+#pie1 {
+	text-align: right;
+	margin:10px;
+}
 
+#pie2 {
+	text-align: right;
+	margin:10px;
+}
 
-
-
-
+#pie3 {
+	text-align: right;
+	margin:10px;
+}
 
 
 
